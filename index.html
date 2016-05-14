@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Fullstack Tic Tac Toe</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel='stylesheet'>
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Fullstack Tic Tac Toe</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <div id='turnMessage'>Player <span id='nextPlayer'>O</span>'s turn</div>
+      <div id='tictactoe'>
+        <div class='cellrow row1'>
+          <div class='cell' id='square1'>Q</div>
+          <div class='cell' id='square2'>W</div>
+          <div class='cell' id='square3'>E</div>
+        </div>
+        <div class='cellrow row2'>
+          <div class='cell' id='square4'>A</div>
+          <div class='cell' id='square5'>S</div>
+          <div class='cell' id='square6'>D</div>
+        </div>
+        <div class='cellrow row3'>
+          <div class='cell' id='square7'>Z</div>
+          <div class='cell' id='square8'>✕</div>
+          <div class='cell' id='square9'>C</div>
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+    <!-- Placed jQuery and tictactoe.js Here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
